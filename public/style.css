@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Rubik:wght@600&display=swap');
 
 * {
   box-sizing: border-box;
@@ -10,6 +10,11 @@ body {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+ul {
+  list-style: none;
 }
 
 .homeContainer {
@@ -44,7 +49,7 @@ button {
 }
 
 button:hover {
-  color: gold;
+  color: orangered;
 }
 
 div{
@@ -56,6 +61,64 @@ div{
 
 h1{
   letter-spacing: 12px;
-  margin-top: 50px;
-  margin-bottom: 0px;
+}
+
+.photoCred{
+  height: 15px;
+  width: auto;
+}
+
+.homeCenter{
+  margin-top: 25px;
+}
+
+.reportsContainer{
+  display: inline;
+  height: 800px;
+  width: 1200px;
+  background-image: url(/reportsBackground.jpg);
+  background-size: 100%;
+  background-repeat: none;
+  color: whitesmoke;
+  border-radius: 8px;
+  font-family: "Rubik", sans-serif;
+}
+
+.nav{
+  display: flex;
+  background-color: rgba(47, 79, 79, 0.667);
+  height: 150px;
+  width: 1200px;
+  border-radius: 8px;
+}
+
+.nav h1 {
+  align-self: center;
+}
+
+.reportsContent{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  width: 1200px;
+}
+
+
+.reportList {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.report{
+  display: flex;
+  flex-flow: column nowrap;
+  height: 200px;
+  margin-top: 35px;
+  width: 500px;
+  border: 1px solid white;
+  background-color: slategray;
+  color: white;
+  padding: 25px;
 }
